@@ -1,0 +1,231 @@
+
+body {
+    margin-top: 1rem;
+    background: #fdf0d6;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    background: #191970;
+    width: 30rem;
+    height: 35rem;
+    align-items: center;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 10px 1px #0000008f;
+    color: #fff;
+}
+
+.info-text {
+    position: relative;
+}
+
+h1 {
+    font: 500 15pt Arial;
+}
+
+
+.info-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+input {
+    padding-left: .5rem;
+    width: 18rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    font: 500 11pt Arial;
+}
+
+label {
+    font: 300 11pt Arial;
+    margin: .2rem 0 .2rem 0;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+#btn {
+    text-transform: uppercase;
+    position: relative;
+    padding: 1rem;
+    width: 10rem;
+    height: 4rem;
+    background: #a7a7a7;
+    cursor: pointer;
+    font: 600 10pt Georgia;
+    transition: 1ms ;
+    box-shadow: 1px 1px 10px 1px #0000007e;
+}
+
+#btn:hover {
+    background: #fff;
+    box-shadow: 1px 1px 10px 1px #ff0000;
+}
+
+.resposta {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #191970;
+    width: 30em;
+    height: 24rem;
+    align-items: center;
+    border-radius: .5em;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+.content-blue {
+    margin-top: 1rem;
+}
+
+p {
+    position: relative;
+    padding: 0;
+    margin: .5rem 0 0 0;
+    font: 100 15pt Arial;
+    color: #fff;
+    text-align: center;
+}
+
+.d15 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 23rem;
+    align-items: center;
+}
+
+#img {
+    width: 20rem;
+    height: 15rem;
+}
+
+#text {
+    font: 500 12pt Arial;
+    color: #000;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+#copy {
+    color: #000;
+    font: 600 10pt Arial;
+}
+
+#erro {
+	color: red;
+}
+
+@media screen and (max-width: 800px) {
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        flex-wrap: wrap;
+        background: #191970;
+        width: 25rem;
+        height: 35rem;
+        align-items: center;
+        border-radius: .5rem;
+        box-shadow: 1px 1px 10px 1px #0000008f;
+        color: #fff;
+        font: 100 10pt Arial;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    input {
+        padding-left: .5rem;
+        width: 18rem;
+        height: 1.5rem;
+        border: none;
+        border-radius: .5rem;
+    }
+
+    label {
+        margin: .2rem 0 .2rem 0;
+    }
+
+    .resposta {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background: #191970;
+        width: 20rem;
+        height: 19rem;
+        align-items: center;
+        border-radius: .5rem;
+        box-shadow: 1px 1px 10px 1px #000;
+    }
+
+    .content-blue {
+        margin-top: 2rem;
+    }
+    
+
+    p {
+        position: relative;
+        padding: 0;
+        margin: .5rem 0 0 0;
+        font: 500 11pt Arial;
+        color: #fff;
+        text-align: center;
+    
+    }
+    
+    .d15 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 23rem;
+        align-items: center;
+    }
+    
+    #imgd15 {
+        width: 16rem;
+        height: 5rem;
+    }
+
+    #text-d15 {
+        margin-top: 1rem;
+        font: 400 7pt Arial;
+        color: #000;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+    
+    #copy {
+        color: #000;
+        font: 600 7pt Arial;
+    }
+    
+}
