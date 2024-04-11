@@ -1,4 +1,3 @@
-
 # Formulário de entrega
 
 
@@ -9,7 +8,7 @@
 <img align="center" alt="HTML5" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div><br/>
 
-#### Trabalho atualmente em uma drogaria, temos uma serviço de delivery.
+#### Trabalho atualmente em uma drogaria, temos um serviço de delivery.
 #### Este é meu primeiro projeto para ajudar a facilitar o meu dia a dia e dos meus colegas de serviço.
 #### Estou atualizando o projeto conforme eu vou aprendendo mais sobre a linguagem JavaScript.
 #### O sistema de delivery a gente mesmo pode pedir ou pedir para outra filial que possa realizar a entrega.
