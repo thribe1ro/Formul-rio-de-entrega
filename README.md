@@ -13,6 +13,7 @@
 #### Estou atualizando o projeto conforme eu vou aprendendo mais sobre a linguagem JavaScript.
 #### O sistema de delivery a gente mesmo pode pedir ou pedir para outra filial que possa realizar a entrega.
 #### Existe um sistema de if else com mais de 100 códigos internos para gerar o nome do produto.
+#### Existe máscaras como : Telefone (12) 98877-6655 | CPF 123.456.789-10 | Dinheiro R$ 123,45 | Código interno 123456.7
 #### Como funciona :
 ![image2](https://github.com/thribe1ro/Formulario-de-entrega/assets/106930480/e17463d2-93b2-4b8f-851a-2e04968cbd68)
 #### O atendente vai abrir a tela de preenchimento de dados.
