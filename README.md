@@ -10,14 +10,15 @@
 
 #### Trabalho atualmente em uma drogaria, temos um serviço de delivery.
 #### Este é meu primeiro projeto para ajudar a facilitar o meu dia a dia e dos meus colegas de serviço.
+#### Tudo foi feito no notepad, pois eu fiz no meu local de serviço.
 #### Estou atualizando o projeto conforme eu vou aprendendo mais sobre a linguagem JavaScript.
 #### O sistema de delivery a gente mesmo pode pedir ou pedir para outra filial que possa realizar a entrega.
-#### Existe um sistema de if else com mais de 100 códigos internos para gerar o nome do produto.
+#### Existe um sistema de if else com mais de 500 códigos internos para gerar o nome do produto.
 #### Existe máscaras como : Telefone (12) 98877-6655 | CPF 123.456.789-10 | Dinheiro R$ 123,45 | Código interno 123456.7
 #### Como funciona :
-![image2](https://github.com/thribe1ro/Formulario-de-entrega/assets/106930480/e17463d2-93b2-4b8f-851a-2e04968cbd68)
 #### O atendente vai abrir a tela de preenchimento de dados.
+![1](https://github.com/thribe1ro/Formulario-de-entrega/assets/106930480/ae37be8a-b345-4163-a420-07096c519d7f)
 #### Em seguida ele ira pedir as informações ao cliente.
-![image1](https://github.com/thribe1ro/Formulario-de-entrega/assets/106930480/98169e23-aceb-4d05-b69b-8e0898f32813)
-
-### Depois é copiar o que está no quadro a direita e enviar para a filial solicitada.
+![2](https://github.com/thribe1ro/Formulario-de-entrega/assets/106930480/ba78a6f9-0fcb-4713-8a1c-007fed4c586b)
+#### Depois ele ira enviar os dados para o WhatsApp e ficará dessa forma.
+![3](https://github.com/thribe1ro/Formulario-de-entrega/assets/106930480/6d8810a6-bada-4091-b3e4-e2a81f1074f3)
