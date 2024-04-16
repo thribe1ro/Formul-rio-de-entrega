@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Entrega</title>
+    <title>Whatsapp entrega</title>
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1698/1698477.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -15,47 +15,40 @@
             <h1>Informações do Cliente</h1>
         </div>
         <div class="info-info">
-            <label>Nome: </label>
-            <input type="text" name="nome" id="nome" placeholder="Nome do cliente" autocomplete="on">
-            <label>Telefone: </label>
-            <input type="tel" name="tel" id="telef" placeholder="(12)98802-2930" maxlength="15" onkeyup="handlePhone(event)" autocomplete="on">
-            <label>CPF: </label>
-            <input type="tel" name="cpf" id="cpf" placeholder="000.111.333-44" maxlength="14" onkeyup="handleCpf(event)" autocomplete="on">
-            <label id="label4">Endereço: </label>
-            <input type="text" name="end" id="end" placeholder="Rua/Avenida... 15 - Apt15 Bloco 15" autocomplete="on">
-            <label>Pagamento: </label>
-            <input type="text" name="payment" id="payment" placeholder="Debito/Crédito/Cartão D15">
-            <label>Chapa: </label>
-            <input type="tel" name="chapa" id="chapa" placeholder="001515" maxlength="6">
-            <label>Valor total: </label>
-            <input type="tel" name="valuetaxa" id="valuetaxa" placeholder="Valor com taxa de entrega" onkeyup="handleMoney(event)" value="R$" maxlength="9">
-            <label>Código int.: </label>
-            <input type="tel" name"codint" id="codint" placeholder="210949.9" onkeyup="handleCod(event)" maxlength="8">
+	<label>Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Nome do cliente" autocomplete="on" onclick="nome()">
+        <label>Telefone: </label>
+        <input type="tel" name="tel" id="telef" placeholder="(12)98802-2930" maxlength="15" onkeyup="handlePhone(event)" autocomplete="on">
+        <label>CPF: </label>
+        <input type="tel" name="cpf" id="cpf" placeholder="000.111.333-44" maxlength="14" onkeyup="handleCpf(event)" autocomplete="on">
+        <label id="label4">CEP: </label>
+	<input type="tel" class="cep" id="cep" value="" maxlength="9" placeholder="12246-000" onblur="pesquisacep(this.value);" onkeyup="handleCep(event)" autocomplete="on">
+
+        <input type="text" id="rua">
+        <label>Pagamento: </label>
+        <input type="text" name="payment" id="payment" placeholder="Débito/Crédito/Cartão D15" list="pagamento">
+<datalist id="pagamento">
+<option value="Débito"></option>
+<option value="Crédito"></option>
+</datalist>
+        <label>Chapa: </label>
+        <input type="tel" name="chapa" id="chapa" placeholder="001515" maxlength="6">
+        <label>Valor total: </label>
+        <input type="tel" name="valuetaxa" id="valuetaxa" placeholder="Valor com taxa de entrega" onkeyup="handleMoney(event)" value="R$" maxlength="9">
+        <label>Código int.: </label>
+        <input type="tel" name"codint" id="codint" placeholder="210949.9" onkeyup="handleCod(event)" maxlength="8">
         <div class="btn">
-            <input id="btn" type="button" value="Aperte Enter" onclick="clicar()">
+	<input type="button" id="btn" value="Enviar Mensagem" onclick="whats()">
         </div>
         </div>
-        </div>
-        <div class="resposta">
-            <div class="content-blue">
-            <p id="resnome"></p>
-            <p id="restel"></p>
-            <p id="rescpf"></p>
-            <p id="resend"></p>
-            <p id="respayment"></p>
-            <p id="reschapa"></p>
-            <p id="restaxa"></p>
-            <p id="rescodint"></p>
-            <p id="resproduct"></p>
         </div>
         <div class="d15">
-        <img src="logo-tr.png" id="img" alt="LOGO">
-        <p id="text"><strong>COMO UTILIZAR</strong></p>
-        <p id="text">ESCREVA OS DADOS DO CLIENTE NO QUADRO A <strong>ESQUERDA</strong></p>
-        <p id="text">APERTE NO BOTAO OU CLIQUE ENTER</p>
-        <p id="text">SELECIONE TODA A INFORMAÇÃO NO QUADRO A <strong>DIREITA</strong><br> E COPIE COM O COMANDO <strong>'CTRL+C'</strong></p>
-        <p id="text">DEPOIS COLE <strong>'CTRL+V'</strong> NO WHATSAPP</p>
-    </div>
+            <i id="imgd15"></i>
+            <p id="text-d15"><strong>COMO UTILIZAR</strong></p>
+            <p id="text-d15">escreva os dados do cliente.</p>
+            <p id="text-d15">aperte o botão ou clique enter.</p>
+            <p id="text-d15">os dados irão para o whastapp automaticamente.</p>
+            <p id="text-d15">caso não aparecer, é so clicar novamente em iniciar conversa.</p>
         </div>
     </div>
     <footer><p id="copy">&copy; Thiago Ribeiro</p></footer>
